@@ -1,0 +1,22 @@
+{
+	"name": "anshu-krishna/neo4j-pack-stream",
+	"description": "An implementation of Neo4j Pack Stream",
+	"keywords": ["neo4j", "pack-stream", "packstream"],
+	"type": "library",
+	"license": "MIT",
+	"version": "1.0",
+	"require": {
+		"php": ">=8.1"
+	},
+	"authors": [
+		{
+			"name": "Anshu Krishna",
+			"email": "anshu.krishna5@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Krishna\\PackStream\\": "src/"
+		}
+	}
+}
